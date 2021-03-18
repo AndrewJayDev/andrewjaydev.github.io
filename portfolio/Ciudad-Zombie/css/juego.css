@@ -1,0 +1,60 @@
+body {
+  background-image: url('../imagenes/fondo.png');
+}
+
+canvas {
+  margin: auto;
+  display: flex;
+  margin-top: calc(50vh - 286px);
+}
+#container{
+  display:flex;
+  flex-flow:column-wrap;
+  justify-content: space-evenly;
+}
+.buton{
+  display:flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+
+}
+.audio-player{
+  display:flex;
+  justify-content: space-evenly;
+  width:10%;
+  background:black;
+}
+
+
+.boton-recargar {
+  font-size: 25px;
+  display: flex;
+  background: none;
+  color: white;
+  font-family: monospace;
+  visibility: hidden;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.boton-continuar {
+  font-size: 25px;
+  margin-top: 5px;
+  display: flex;
+  background: none;
+  color: white;
+  font-family: monospace;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+
+.flash{ 
+  position:fixed; 
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#fff;
+  z-index: 1;
+}

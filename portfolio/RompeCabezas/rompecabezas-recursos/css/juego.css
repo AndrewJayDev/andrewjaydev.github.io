@@ -1,0 +1,198 @@
+body {
+  font-family: 'Share Tech', sans-serif;
+  font-size:10px;
+  width: 800px;
+  margin: 2% auto;
+  min-height:100%;
+  background-image: url(../images/adventure.jpg);
+  border:2px solid #E84A5F;
+  box-sizing:border-box;
+}
+
+ul {
+  padding-left: 0;
+  list-style;none;
+}
+li {
+  animation: fadein 5s;
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40 h1 {
+  font-size: 1.5rem;
+  color: #E84A5F;
+}
+
+.col-40 #instrucciones {
+  font-size: .8rem;
+  color: #E84A5F;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  width:200px;
+  background: #f0efea;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #000;
+  box-sizing:border-box;
+}
+
+.col-40 div { 
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+h2{
+  font-size: 1rem;
+  color: #E84A5F;
+}
+
+p{
+  font-size:1rem;
+  color: #E84A5F;
+}
+
+.col-60 {
+  width:600px;
+  background: #E84A5F;
+  border-left: 2px solid #E84A5F;
+
+}
+
+#flecha{
+  font-size: 3rem;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+#imagenFinal{
+  width:50%;
+  border: 2px solid #E84A5F;
+  box-sizing: border-box;
+}
+
+#juego div {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  text-align: center;
+  animation: fadein 2s;
+  border: solid 1px #E84A5F;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#juego{
+  width:600px;
+  height: 600px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: stretch;
+  align-content: center;
+}
+
+.piezas{
+  width:33%;
+  height:33%;
+  text-align: center;
+  animation: fadein 2s;
+}
+
+.piezas img{
+  width:100%;
+}
+
+#instrucciones-text{
+  width:100%;
+  margin:auto;
+}
+
+#lista-instrucciones{
+  width:100%;
+  margin:auto;
+  padding:5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  backface-visibility: hidden;
+  width:50%;
+  margin-left:15%;
+  margin-top:1em;
+  margin-bottom:1em;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  background: linear-gradient(180deg,#f9f9f9 0%,#e0e0e0 100%);
+  border-radius: 100px;
+  border: 0.5px solid rgba(0,0,0,0.2);
+  border-width: 0.5px 0.5px 0.5px 0.5px;
+  padding: 4px 22px 5px 22px;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.6),0px 0px 5px rgba(255,255,255,1),0px 1px 0px 3px rgba(0,0,0,0.2),inset 0px 1px 0px rgba(255,255,255,1);
+    color: #273;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal;
+  }
+
+  .button > div {
+  display: flex;
+  justify-content: space-around;
+  width:50%;
+  color:#E84A5F;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button > i {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  }
+strong{
+  font-weight: 700;
+}
+#ultimo-mov{
+  min-height:6rem;
+  margin:auto;
+}
+
+#footer{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:100%;
+  background-color:#f0efea;
+  border-top: solid 2px #EC6778;
+  margin-top:1rem;
+}
+
+/* extra-small screens */
+@media only screen and (max-width: 565px){
+
+}
+
