@@ -435,10 +435,10 @@ hr.major {
 }
 
 .course-description {
-    margin-right: 30%;
+    margin-right: 20%;
     margin-left: 10%;
     margin-bottom: 1rem;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .port-item {
